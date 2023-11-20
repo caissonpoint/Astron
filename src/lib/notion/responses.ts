@@ -204,6 +204,9 @@ interface StatusGroupObject {
 }
 
 interface FormulaConfiguration {
+  name: string
+  id: string
+  format: string
   type: string
   expression: string
 }
