@@ -204,6 +204,7 @@ interface StatusGroupObject {
 }
 
 interface FormulaConfiguration {
+  type: string
   expression: string
 }
 
@@ -289,7 +290,7 @@ interface StatusProperty {
 
 interface FormulaProperty {
   type: string
-
+  expression?: string
   number?: number
   string?: string
   boolean?: boolean
