@@ -68,7 +68,7 @@ export interface RichTextObject {
   plain_text: string
   annotations: Annotations
   href?: string
-
+  expression?: string
   text?: Text
   mention?: Mention
   equation?: Equation
